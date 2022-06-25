@@ -1,0 +1,284 @@
+.left_side {
+    width: 33.5vw;
+    background-color: #3A3B3C;
+    float: left;
+}
+
+img {
+    border-radius: 50%;
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.AboutMe {
+    text-align: center;
+}
+
+.Skills {
+    text-align: center;
+}
+
+.EDUCATION {
+text-align: center;
+}
+
+.EXPERIENCE {
+    text-align: center;
+}
+
+
+.Me_Text {
+    font-size: 1.2vw;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: whitesmoke;
+
+}
+
+.Contact_Details {
+    font-size: 1.2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+}
+
+.Contact {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+    text-align: left;
+}
+
+ .contact_icons {
+    width:1.4vw;
+    float: left;
+    display: block;
+ }
+ 
+* {
+        margin : 0;
+        padding : 0;
+        box-sizing : border - box;
+}
+
+#Program_Language {
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+  }
+  
+#HTML {
+    width: 20vw;
+    height: 6vh;
+    background-color: #5583e7;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+}
+
+.HTML_text {
+      text-align: center;
+      color: whitesmoke;
+}
+
+
+#Java {
+    width: 16vw;
+    height: 6vh;
+    background-color:rgb(192, 113, 248);
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+}
+
+.Java_text {
+      text-align: center;
+      color: whitesmoke;
+}
+
+
+#JavaScript {
+    width: 16vw;
+    height: 6vh;
+    background-color:lightcoral;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+}
+
+.JavaScript_text {
+      text-align: center;
+      color: whitesmoke;
+
+}
+
+
+#PHP {
+    width: 18vw;
+    height: 6vh;
+    background-color: lightseagreen;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+}
+
+.PHP_text {
+      text-align: center;
+      color: whitesmoke;
+}
+
+#Languages_Known {
+    width: 24vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+    text-align: center;
+    height:8vh;
+}
+
+#Languages {
+    width: 24vw;
+    height: 4.8vh;
+    background-color:tomato;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+}
+
+.Languages_Text {
+      text-align: center;
+      color: whitesmoke;
+}
+
+
+  
+  
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 4vw;
+      font-weight: 3px;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.8vh;
+    font-weight: 1px;
+    color:rgb(112, 87, 250);
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.6vh;
+    font-weight: 2px;
+    color:tomato;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;        
+    font-size: 1.3vw;
+    font-weight: 2px;
+    text-align: left;
+    text-align: justify;
+}
+
+h5 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 3px;
+    color: #05aa6d;
+}
+
+h6 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5vh;
+}
+
+h7 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+    color:rgb(252, 38, 0);
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 1.2vw;   
+    color:whitesmoke;   
+}
+
+.About_Me {
+    width: 27vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+}
+.SkillsList {
+    width: 27vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+    text-align: center;
+ }
+
+ .button {
+    background-color: #1ef44c;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    transition: 0.2s;
+    opacity: 0.7;
+    font-size: 25px;
+    margin: 4px 2px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+.button:hover {
+    opacity: 1;
+}
+
+.button_container {
+      display: block;
+      align-content: center;
+      position: right;
+      text-align: center;
+}
+
+.ProgrammingSkills {
+        width: 27vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:justify;
+}
+.LanguagesSpoken{
+    width: 27vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify;
+    text-align: center;
+}
+
+
+.education_block {
+    background-color: rgb(240, 240, 240);
+
+    
+}
+.experience_block {
+    background-color: rgb(255, 255, 255);
+}
+
+.contact_block {
+    background-color: rgb(209, 209, 209);
+
+    
+}
